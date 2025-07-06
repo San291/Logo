@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IRyS Logo Maker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>IRyS Logo Maker</h1>
+    <input type="text" id="logoText" placeholder="Enter your logo text" />
+    <select id="fontSelector">
+      <option value="sans-serif">Sans Serif</option>
+      <option value="cursive">Cursive</option>
+      <option value="monospace">Monospace</option>
+    </select>
+    <input type="color" id="colorPicker" />
+    <button onclick="downloadLogo()">Download</button>
+    <div id="logoPreview" class="logo-preview"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
